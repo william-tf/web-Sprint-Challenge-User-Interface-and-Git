@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,6 +64,137 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.headcontainer{
+    display:flex;
+    align-items:baseline;
+    width:800px;
+}
+.headnav{
+    display:flex;
+    border:2px solid white;
+    width:600px;
+}
+.lambdaimage{
+    padding:0 2%;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+}
+nav a{
+    width:75%;
+    padding:2% 2%;
+    text-decoration:none;
+    color:black;
+}
+.headimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
+    padding:1%;
+}
+.boxbox1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .container {
@@ -143,4 +274,97 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Start of the about page*/
+.topinfo {
+padding:3%;
+border-bottom: 1px dashed black;
+}
+.firstcontainer{
+    display:flex;
+}
+.strategy{
+    display:flex;
+    flex-direction:column;
+    padding:3%;
+    border-bottom:1px dashed black;
+    margin-right:20px;
+}
+.strategy h2{
+    padding-top:5%;
+}
+.button1{
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    width:30%;
+    padding:1%;
+    border-radius:8px;
+}
+.howwework{
+    display:flex;
+    flex-direction:column;
+    padding:3%;
+    border-bottom:1px dashed black;
+}
+.howwework h2{
+    padding-top:5%;
+}
+.button2{
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    width:30%;
+    padding:1%;
+    border-radius:8px;
+}
+.secondcontainer{
+    display:flex;
+}
+.placeswework{
+    display:flex;
+    flex-direction:column;
+    padding:3%;
+    border-bottom:1px dashed black;
+    margin-right:20px;
+}
+.placeswework h2{
+    padding-top:5%;
+}
+.button3{
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    width:30%;
+    padding:1%;
+    border-radius:8px;
+}
+.collaboration{
+    display:flex;
+    flex-direction:column;
+    padding:3%;
+    border-bottom:1px dashed black;
+}
+.collaboration h2{
+    padding-top:5%;
+}
+.button4{
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    width:30%;
+    padding:1%;
+    border-radius:8px;
+   
+}
+.worktogether{
+    padding:5%;
 }
